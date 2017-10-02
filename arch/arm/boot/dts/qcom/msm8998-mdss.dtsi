@@ -381,6 +381,7 @@
 			reg-names = "dsi_ctrl", "dsi_phy", "mmss_misc_phys";
 
 			qcom,timing-db-mode;
+			vpnl-supply = <&disp_vpnl_vreg>;
 			wqhd-vddio-supply = <&pm8998_l14>;
 			lab-supply = <&lab_regulator>;
 			ibb-supply = <&ibb_regulator>;
